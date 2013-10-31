@@ -89,6 +89,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9775731618226BF0009A1CFC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				97AD19211822680700BCCAF9 /* MasterViewController.h */,
+				97AD19221822680700BCCAF9 /* MasterViewController.m */,
+				97AD19241822680700BCCAF9 /* DetailViewController.h */,
+				97AD19251822680700BCCAF9 /* DetailViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9775731718226C14009A1CFC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				97AD191B1822680700BCCAF9 /* Main.storyboard */,
+				97AD19271822680700BCCAF9 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		97AD18FB1822680700BCCAF9 = {
 			isa = PBXGroup;
 			children = (
@@ -125,12 +145,8 @@
 			children = (
 				97AD19181822680700BCCAF9 /* AppDelegate.h */,
 				97AD19191822680700BCCAF9 /* AppDelegate.m */,
-				97AD191B1822680700BCCAF9 /* Main.storyboard */,
-				97AD19211822680700BCCAF9 /* MasterViewController.h */,
-				97AD19221822680700BCCAF9 /* MasterViewController.m */,
-				97AD19241822680700BCCAF9 /* DetailViewController.h */,
-				97AD19251822680700BCCAF9 /* DetailViewController.m */,
-				97AD19271822680700BCCAF9 /* Images.xcassets */,
+				9775731718226C14009A1CFC /* Resources */,
+				9775731618226BF0009A1CFC /* View Controllers */,
 				97AD191E1822680700BCCAF9 /* ControllingSource.xcdatamodeld */,
 				97AD19101822680700BCCAF9 /* Supporting Files */,
 			);
@@ -476,6 +492,7 @@
 				97AD19411822680700BCCAF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97AD19421822680700BCCAF9 /* Build configuration list for PBXNativeTarget "ControllingSourceTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +501,7 @@
 				97AD19441822680700BCCAF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
